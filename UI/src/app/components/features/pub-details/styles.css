@@ -1,0 +1,10 @@
+.pub-details_dialog-body{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+
+.photos{
+    max-height:400px;
+    overflow: auto;
+}

@@ -1,0 +1,49 @@
+.main-menu {
+
+    display: grid;
+    grid-template-areas:
+      "create"
+      "join";
+    margin:auto;
+    grid-gap: 55%;
+    grid-template-rows: 6rem  8rem;    
+    padding-top: 10rem;    
+    height: 100%;
+    width: 100%;
+    justify-items: center;   
+    font-family: cowboys;
+    font-size: 22px;  
+    background-image: url('/saloon-doors.png');    
+    background-size: 100% 100%;
+    max-width:700px;
+    min-height:650px;
+}
+
+.main-menu__create {
+    grid-area: create;
+    font-family: cowboys;
+    font-size:3rem;
+}
+
+
+.main-menu__join {   
+    grid-area: join;
+    display:flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-family: cowboys;
+    font-size: 3rem;
+}
+
+.main-menu__join-button{
+    font-family: cowboys;
+    font-size: 4rem;
+}
+
+.main-menu__join-input{
+    font-size: 3rem;
+    margin:2rem;
+    text-align: center;
+    font-family: cowboys;
+    width:30rem;
+}

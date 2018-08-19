@@ -1,0 +1,9 @@
+html {
+    --font-family: 'Roboto', sans-serif;
+    --base-font-size: 10px;
+    --color-app-main: #000000;
+    --color-text-dark: #000000;
+    --color-text-light: #000000;
+    --color-background-light: #ffffff;
+    --background-color: #ffffff;
+}

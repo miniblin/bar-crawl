@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+*.nupkg
+
+# error logs
+yarn-error.log
+package-lock.json
+
+# OS files
+.DS_Store
+
+

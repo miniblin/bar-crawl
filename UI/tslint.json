@@ -1,0 +1,22 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:latest",
+        "tslint-react",
+        "tslint-config-standard",
+        "tslint-sonarts",
+        "tslint-immutable"
+    ],
+    "rules": {
+        "no-implicit-dependencies": [
+            true, 
+            [
+                "app",                 
+                "services",               
+            ]
+        ],
+        "no-submodule-imports": false,
+        "no-unused-variable": true,
+        "no-duplicate-string": false
+    }
+}
